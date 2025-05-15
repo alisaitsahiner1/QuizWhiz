@@ -10,9 +10,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/dall_e_2024_05_30_12_57_19___a_simple_and_modern_logo_design_for_a_quiz_app_named__quizapp___the_logo_should_be_minimalistic_without_an_ampoule__using_elegant_and_appealing_colors"
+        android:icon="@mipmap/dalle"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/dall_e_2024_05_30_12_57_19___a_simple_and_modern_logo_design_for_a_quiz_app_named__quizapp___the_logo_should_be_minimalistic_without_an_ampoule__using_elegant_and_appealing_colors"
+        android:roundIcon="@mipmap/dalle"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp"
         tools:targetApi="31">
