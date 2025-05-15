@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "816863657952",
+    "firebase_url": "https://mobilproje-429a4-default-rtdb.firebaseio.com",
+    "project_id": "mobilproje-429a4",
+    "storage_bucket": "mobilproje-429a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816863657952:android:d74a8dd54953ec55bf3585",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Wuh0l_uZaWI9couoD6eY0BHUaDG6m3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

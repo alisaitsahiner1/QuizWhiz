@@ -1,0 +1,9 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <!-- Diğer stil tanımlamaları -->
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

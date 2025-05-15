@@ -1,0 +1,54 @@
+{
+  "questions": {
+    "question1": {
+      "question": "Quel numéro est indissociable du footballeur Cristiano Ronaldo ?",
+      "choices": {
+        "0": "3",
+        "1": "7",
+        "2": "14",
+        "3": "19"
+      },
+      "correct": "7"
+    },
+    "question2": {
+      "question": "D’où est originaire le footballeur portugais Cristiano Ronaldo ?",
+      "choices": {
+        "0": "porto",
+        "1": "lisboone",
+        "2": "madère",
+        "3": "fato"
+      },
+      "correct": "madère"
+    },
+    "question3": {
+      "question": "Quel pays Cristiano Ronaldo n’a-t-il jamais été membre d’un club ?",
+      "choices": {
+        "0": "italie",
+        "1": "allemagne",
+        "2": "espagne",
+        "3": "angleterre"
+      },
+      "correct": "allemagne"
+    },
+    "question4": {
+      "question": "Dans quel club de foot Cristiano Ronaldo est-il resté le plus longtemps en continu ?",
+      "choices": {
+        "0": "juventus",
+        "1": "united",
+        "2": "barcelone",
+        "3": "madrid"
+      },
+      "correct": "madrid"
+    },
+    "question5": {
+      "question": "Combien de Ligue des Champions Cristiano Ronaldo a-t-il remporté durant sa carrière madrilène de 2009 à 2018 ?",
+      "choices": {
+        "0": "1",
+        "1": "2",
+        "2": "4",
+        "3": "5"
+      },
+      "correct": "4"
+    }
+  }
+}

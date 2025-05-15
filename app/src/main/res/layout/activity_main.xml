@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".MainActivity">
+
+    <!-- Logo Resmi -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="162dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_notification"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chakrapetchbold"
+        android:text="QuizWhiz"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_geography"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoImageView"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <!-- Kategori Butonları -->
+    <ImageButton
+        android:id="@+id/btn_geography"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_btn"
+        android:src="@drawable/geography"
+        android:scaleType="fitCenter"
+        android:padding="16dp"
+        android:contentDescription="Geography"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_science"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sports"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <ImageButton
+        android:id="@+id/btn_science"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_btn"
+        android:src="@drawable/science"
+        android:scaleType="fitCenter"
+        android:padding="16dp"
+        android:contentDescription="Science"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintStart_toEndOf="@+id/btn_geography"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cinema"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <ImageButton
+        android:id="@+id/btn_sports"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_btn"
+        android:src="@drawable/sports"
+        android:scaleType="fitCenter"
+        android:padding="16dp"
+        android:contentDescription="Sports"
+        app:layout_constraintTop_toBottomOf="@id/btn_geography"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cinema"
+        app:layout_constraintBottom_toTopOf="@+id/btn_play"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <ImageButton
+        android:id="@+id/btn_cinema"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_btn"
+        android:src="@drawable/cinema"
+        android:scaleType="fitCenter"
+        android:padding="16dp"
+        android:contentDescription="Cinema"
+        app:layout_constraintTop_toBottomOf="@id/btn_science"
+        app:layout_constraintStart_toEndOf="@+id/btn_sports"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_play"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.25" />
+
+    <!-- Play Butonu -->
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/background_btn"
+        android:fontFamily="@font/chakrapetchbold"
+        android:padding="8dp"
+        android:text="Oyna"
+        android:textColor="@color/primary_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Exit Butonu -->
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/background_btn"
+        android:fontFamily="@font/chakrapetchbold"
+        android:padding="8dp"
+        android:text="Çıkış"
+        android:textColor="@color/primary_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
